@@ -4,6 +4,12 @@
    <name>button_Login</name>
    <tag></tag>
    <elementGuidId>72f93400-c891-4228-8789-cbd61bd58c64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;loginButton&quot;)[count(. | //button[@id = 'loginButton' and @type = 'button' and (text() = 'Login' or . = 'Login')]) = count(//button[@id = 'loginButton' and @type = 'button' and (text() = 'Login' or . = 'Login')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>Login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

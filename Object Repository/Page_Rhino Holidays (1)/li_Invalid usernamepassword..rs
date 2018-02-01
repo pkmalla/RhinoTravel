@@ -4,6 +4,12 @@
    <name>li_Invalid usernamepassword.</name>
    <tag></tag>
    <elementGuidId>946abc85-339b-44e0-ab45-411194027190</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ui-tabpanel-0&quot;)/div[@class=&quot;row account-body&quot;]/div[@class=&quot;col-md-offset-2 col-md-8&quot;]/ul[@class=&quot;text-danger error-list&quot;]/li[1][count(. | //li[(text() = 'Invalid username/password.' or . = 'Invalid username/password.')]) = count(//li[(text() = 'Invalid username/password.' or . = 'Invalid username/password.')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>Invalid username/password.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

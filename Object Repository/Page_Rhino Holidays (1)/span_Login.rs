@@ -4,6 +4,12 @@
    <name>span_Login</name>
    <tag></tag>
    <elementGuidId>9ef284ae-7baa-4199-8321-1ee9df9b1db5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ui-tabpanel-0-label&quot;)/span[@class=&quot;ui-tabview-title&quot;][count(. | //span[(text() = 'Login' or . = 'Login')]) = count(//span[(text() = 'Login' or . = 'Login')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>Login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
