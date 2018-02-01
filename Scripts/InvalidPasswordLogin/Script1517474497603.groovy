@@ -36,5 +36,7 @@ WebUI.click(findTestObject('Page_Rhino Holidays (1)/button_Login_1'))
 
 WebUI.click(findTestObject('Page_Rhino Holidays (1)/li_Invalid usernamepassword.'))
 
+WebUI.verifyTextPresent('Invalid username/password', false)
+
 WebUI.closeBrowser()
 
